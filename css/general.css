@@ -58,7 +58,7 @@ html {
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
-}
+} 
 
 body {
   font-family: "Rubik", sans-serif;
@@ -105,9 +105,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols {
+/* .grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
   align-items: center;
