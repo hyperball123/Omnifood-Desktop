@@ -127,6 +127,7 @@ Instead , 1rem = 1em = 16px */
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -209,7 +210,7 @@ Instead , 1rem = 1em = 16px */
     grid-template-columns: repeat(6, 1fr);
   }
 
-  .logo-col,
+  .logo-col, 
   .address-col {
     grid-column: span 3;
   }
